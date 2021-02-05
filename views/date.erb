@@ -1,0 +1,12 @@
+<% require 'date' %>
+
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>Today</h1>
+        <% d = DateTime.new(2021,2,5) %>
+        <p>The date is <%= d.strftime("%A, %B %d, %Y") %></p>
+    </body>
+</html> 
